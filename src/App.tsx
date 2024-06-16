@@ -135,7 +135,7 @@ function App() {
   return (
     <div className="lg:h-full min-h-screen bg-black flex justify-center items-center gap-8 flex-col lg:flex-row p-[24px]">
       <Analytics />
-      <form onSubmit={onSubmit} className="lg:w-[716px] w-full">
+      <form onSubmit={onSubmit} className="lg:w-[716px] w-full py-[32px]">
         <Card className="lg:w-[716px] w-full min-h-[740px] h-full relative">
           <CardHeader>
             <CardTitle>Censo RD AL 🎈</CardTitle>
